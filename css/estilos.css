@@ -9,12 +9,31 @@ body{
 
 #container{
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
-    border: 1px solid red;
+    border: 1px solid gray;
     margin: 0 auto;
 }
 
 #container h1{
     font-size: 20px;
+}
+
+#cabecera{
+    background: navy;
+    color: white;
+    margin:0;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+#post{
+    padding: 0.5em;
+    color: black;
+}
+
+#cabecera #subtitulo{
+    font-size: 12px!important;
+    font-weight: normal;
+    margin: 0 0 0 1em;
 }
